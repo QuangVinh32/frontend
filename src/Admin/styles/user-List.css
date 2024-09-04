@@ -1,0 +1,44 @@
+/* CSS for UserList */
+.content {
+    padding: 20px;
+  }
+  
+  .content-wrapper {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .border-orange {
+    border-color: #ff9900 !important;
+  }
+  
+  .pagination1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination1 .page-item {
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .pagination1 .page-item.active {
+    background-color: #ffffff;
+    color: white;
+  }
+  
+
+  

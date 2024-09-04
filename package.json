@@ -1,0 +1,74 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://13.212.151.155:8888",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.4.0",
+    "compressorjs": "^1.2.1",
+    "crypto-browserify": "^3.12.0",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "gh-pages": "^6.0.0",
+    "html-react-parser": "^4.2.2",
+    "html-to-draftjs": "^1.5.0",
+    "immutable": "^3.8.2",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-icons": "^4.10.1",
+    "react-icons-kit": "^2.0.0",
+    "react-responsive-masonry": "^2.1.7",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.5",
+    "recharts": "^2.8.0",
+    "remixicon": "^2.5.0",
+    "sass": "^1.64.2",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.38",
+    "@types/react-chartjs-2": "^2.5.7"
+  }
+}
